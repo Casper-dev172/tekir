@@ -1,0 +1,333 @@
+[11:50:47] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[11:50:47] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[11:50:48] [Worker-Main-12/INFO]: Loaded 7 recipes
+[11:50:49] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[11:50:49] [Server thread/INFO]: Loading properties
+[11:50:50] [Server thread/INFO]: This server is running CraftBukkit version 3096a-Spigot-9fb885e-af1a232 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[11:50:50] [Server thread/INFO]: Debug logging is disabled
+[11:50:50] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[11:50:50] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:50:50] [Server thread/INFO]: Default game type: SURVIVAL
+[11:50:50] [Server thread/INFO]: Generating keypair
+[11:50:50] [Server thread/INFO]: Starting Minecraft server on 192.168.1.108:25565
+[11:50:50] [Server thread/INFO]: Using default channel type
+[11:50:51] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[11:50:54] [Server thread/WARN]: Legacy plugin SimpleTpa v6.1 does not specify an api-version.
+[11:50:54] [Server thread/WARN]: Legacy plugin gMoney v1.9.4 does not specify an api-version.
+[11:50:55] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.1
+[11:50:55] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[11:50:55] [Server thread/INFO]: [gMoney] Loading gMoney v1.9.4
+[11:50:55] [Server thread/INFO]: [GriefPrevention] Loading GriefPrevention v16.17.1-2b69191
+[11:50:55] [Server thread/INFO]: [LockettePro] Loading LockettePro v2.10.10
+[11:50:55] [Server thread/INFO]: [QuickShop] Loading QuickShop v5.1.0.9
+[11:50:55] [Server thread/INFO]: [QuickShop] QuickShop Reremake - Early boot step - Booting up
+[11:50:56] [Server thread/INFO]: [QuickShop] [OK] Signature Verify
+[11:50:56] [Server thread/INFO]: [QuickShop] [OK] Potential Infection Characteristics Check
+[11:50:56] [Server thread/INFO]: [QuickShop] [OK] Plugin Manifest Check
+[11:50:56] [Server thread/INFO]: [QuickShop] Reading the configuration...
+[11:50:56] [Server thread/INFO]: [QuickShop] Loading messages translation over-the-air (this may need take a while).
+[11:50:56] [Server thread/INFO]: [QuickShop] Translation over-the-air platform selected: Crowdin
+[11:50:56] [Server thread/INFO]: [QuickShop] Checking for translation updates, this may need a while...
+[11:50:58] [Server thread/INFO]: [QuickShop] Loading up integration modules.
+[11:50:58] [Server thread/INFO]: [QuickShop] QuickShop Reremake - Early boot step - Complete
+[11:50:58] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.6.0
+[11:50:59] [Server thread/INFO]: [Orebfuscator] Loading Orebfuscator v5.1.2
+[11:50:59] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[11:50:59] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[11:50:59] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[11:50:59] [Server thread/INFO]: [gMoney] Enabling gMoney v1.9.4
+[11:50:59] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.6.0
+[11:50:59] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[11:50:59] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11:50:59] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[11:50:59] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11:50:59] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[11:50:59] [Server thread/INFO]: Preparing level "world"
+[11:50:59] [Server thread/INFO]: -------- World Settings For [world] --------
+[11:50:59] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:50:59] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:50:59] [Server thread/INFO]: View Distance: 10
+[11:50:59] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:50:59] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:50:59] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:50:59] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[11:50:59] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:50:59] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:50:59] [Server thread/INFO]: Mob Spawn Range: 6
+[11:50:59] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:50:59] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:50:59] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:50:59] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:50:59] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:50:59] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:50:59] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[11:50:59] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[11:50:59] [Server thread/INFO]: Potato Growth Modifier: 100%
+[11:50:59] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:50:59] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:50:59] [Server thread/INFO]: Vine Growth Modifier: 100%
+[11:50:59] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[11:50:59] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[11:50:59] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[11:50:59] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[11:50:59] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[11:50:59] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[11:50:59] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[11:50:59] [Server thread/INFO]: Max TNT Explosions: 100
+[11:50:59] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:51:00] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[11:51:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:51:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:51:00] [Server thread/INFO]: View Distance: 10
+[11:51:00] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:51:00] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:51:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:51:00] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[11:51:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:51:00] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:51:00] [Server thread/INFO]: Mob Spawn Range: 6
+[11:51:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:51:00] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:51:00] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:51:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:51:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:51:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:51:00] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[11:51:00] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[11:51:00] [Server thread/INFO]: Potato Growth Modifier: 100%
+[11:51:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:51:00] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:51:00] [Server thread/INFO]: Vine Growth Modifier: 100%
+[11:51:00] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[11:51:00] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[11:51:00] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[11:51:00] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[11:51:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[11:51:00] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[11:51:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[11:51:00] [Server thread/INFO]: Max TNT Explosions: 100
+[11:51:00] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:51:00] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[11:51:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:51:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:51:00] [Server thread/INFO]: View Distance: 10
+[11:51:00] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:51:00] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:51:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:51:00] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[11:51:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:51:00] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:51:00] [Server thread/INFO]: Mob Spawn Range: 6
+[11:51:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:51:00] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:51:00] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:51:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:51:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:51:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:51:00] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[11:51:00] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[11:51:00] [Server thread/INFO]: Potato Growth Modifier: 100%
+[11:51:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:51:00] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:51:00] [Server thread/INFO]: Vine Growth Modifier: 100%
+[11:51:00] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[11:51:00] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[11:51:00] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[11:51:00] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[11:51:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[11:51:00] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[11:51:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[11:51:00] [Server thread/INFO]: Max TNT Explosions: 100
+[11:51:00] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:51:00] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:51:01] [Server thread/INFO]: Preparing spawn area: 0%
+[11:51:01] [Server thread/INFO]: Preparing spawn area: 0%
+[11:51:01] [Server thread/INFO]: Preparing spawn area: 0%
+[11:51:03] [Worker-Main-10/INFO]: Preparing spawn area: 83%
+[11:51:03] [Worker-Main-14/INFO]: Preparing spawn area: 83%
+[11:51:03] [Worker-Main-10/INFO]: Preparing spawn area: 83%
+[11:51:03] [Worker-Main-13/INFO]: Preparing spawn area: 83%
+[11:51:03] [Worker-Main-10/INFO]: Preparing spawn area: 95%
+[11:51:04] [Worker-Main-11/INFO]: Preparing spawn area: 95%
+[11:51:04] [Worker-Main-9/INFO]: Preparing spawn area: 97%
+[11:51:05] [Server thread/INFO]: Time elapsed: 4806 ms
+[11:51:05] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[11:51:05] [Server thread/INFO]: Preparing spawn area: 0%
+[11:51:05] [Worker-Main-12/INFO]: Preparing spawn area: 83%
+[11:51:06] [Worker-Main-9/INFO]: Preparing spawn area: 83%
+[11:51:06] [Worker-Main-8/INFO]: Preparing spawn area: 84%
+[11:51:07] [Worker-Main-13/INFO]: Preparing spawn area: 92%
+[11:51:07] [Server thread/INFO]: Time elapsed: 2390 ms
+[11:51:07] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[11:51:07] [Server thread/INFO]: Preparing spawn area: 0%
+[11:51:07] [Server thread/INFO]: Time elapsed: 495 ms
+[11:51:07] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.1
+[11:51:07] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+[11:51:07] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.1[m
+[11:51:07] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[11:51:07] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.17.1-2b69191
+[11:51:07] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
+[11:51:07] [Server thread/INFO]: [GriefPrevention] 3 total claims loaded.
+[11:51:08] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
+[11:51:08] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
+[11:51:08] [Server thread/INFO]: [GriefPrevention] Boot finished.
+[11:51:08] [Server thread/INFO]: [LockettePro] Enabling LockettePro v2.10.10
+[11:51:08] [Server thread/INFO]: [LockettePro] Compatible server version detected: 1.16.5
+[11:51:08] [Server thread/INFO]: [LockettePro] ===================================
+[11:51:08] [Server thread/INFO]: [QuickShop] Enabling QuickShop v5.1.0.9
+[11:51:08] [Server thread/INFO]: [QuickShop] QuickShop Reremake
+[11:51:08] [Server thread/INFO]: [QuickShop] Starting plugin self-test, please wait...
+[11:51:08] [Server thread/INFO]: [QuickShop] [OK] Signature Verify
+[11:51:08] [Server thread/INFO]: [QuickShop] [OK] Potential Infection Characteristics Check
+[11:51:08] [Server thread/INFO]: [QuickShop] [OK] Java Runtime Environment Version Test
+[11:51:08] [Server thread/INFO]: [QuickShop] [OK] Plugin Manifest Check
+[11:51:08] [Server thread/INFO]: [QuickShop] Running QuickShop-Reremake on NMS version v1_16_R3 For Minecraft version 1.16.5
+[11:51:08] [Server thread/INFO]: [QuickShop] [OK] Spigot Based Server Test
+[11:51:08] [Server thread/INFO]: [QuickShop] [OK] Old QuickShop Test
+[11:51:08] [Server thread/INFO]: [QuickShop] [OK] ModdedServer Based Test
+[11:51:08] [Server thread/INFO]: [QuickShop] [OK] CoreSupport Test
+[11:51:08] [Server thread/INFO]: [QuickShop] [OK] Virtual DisplayItem Support Test
+[11:51:08] [Server thread/INFO]: [QuickShop] [OK] GameVersion supporting Test
+[11:51:08] [Server thread/INFO]: [QuickShop] [OK] Permission Manager Test
+[11:51:08] [Server thread/INFO]: [QuickShop] [OK] PacketListenerAPI Conflict Test
+[11:51:08] [Server thread/INFO]: [QuickShop] [OK] End of life Test
+[11:51:08] [Server thread/INFO]: [QuickShop] Reading the configuration...
+[11:51:08] [Server thread/INFO]: [QuickShop] Developers: PotatoCraft Studio, Netherfoam, Timtower, KaiNoMood (KaiKikuchi), jho5245, Ghost_chu, cakoyo, Ectabro, portlek, log4b0at, Andre601, deadman96385, Vlvxingze, DoctaEnkoda, Mgazul, TiaraRinne, sandtechnology, Starmism, Chris6ix, Rean Schwarzer, mart-r, raphtaliapt, Tim269, creatorfromhell, LoneDev6, judgetread, confuxeon, ibmibmibm, yannicklamprecht, PyvesB, PaulBGD, ORelio, JoschuaSchneider, Starmium, harry0198, efekurbann, tdiant
+[11:51:08] [Server thread/INFO]: [QuickShop] Original author: Netherfoam, Timtower, KaiNoMood
+[11:51:08] [Server thread/INFO]: [QuickShop] Let's start loading the plugin
+[11:51:08] [Server thread/INFO]: [QuickShop] Chat processor selected: Hardcoded BungeeChat Lib
+[11:51:08] [Server thread/INFO]: [QuickShop] Loading plugin translations files...
+[11:51:08] [Server thread/INFO]: [QuickShop] Game assets server selected: Mojang API
+[11:51:08] [Server thread/INFO]: [QuickShop] Loading items translations...
+[11:51:08] [Server thread/INFO]: [QuickShop] Loading enchantments translations...
+[11:51:08] [Server thread/INFO]: [QuickShop] Loading potions translations...
+[11:51:08] [Server thread/WARN]: [QuickShop] You're using Real Display system and that may cause your server lagg, switch to Virtual Display system if you can!
+[11:51:08] [Server thread/INFO]: [QuickShop] Setting up database...
+[11:51:08] [Server thread/INFO]: [QuickShop] Checking and updating database columns, it may take a while...
+[11:51:08] [Server thread/INFO]: [QuickShop] Finished!
+[11:51:08] [Server thread/INFO]: [QuickShop] Selected permission provider: Bukkit
+[11:51:08] [Server thread/INFO]: [QuickShop] Registering commands...
+[11:51:08] [Server thread/INFO]: [QuickShop] Loaded 1 rules for listener blacklist.
+[11:51:08] [Server thread/INFO]: [QuickShop] EventManager selected: QSEventManager
+[11:51:08] [Server thread/INFO]: [QuickShop] Fetching shops from the database...If plugin stuck there, check your database connection.
+[11:51:08] [Server thread/INFO]: [QuickShop] Loading shops from the database...
+[11:51:08] [Server thread/INFO]: [QuickShop] >> Shop Loader Information
+[11:51:08] [Server thread/INFO]: [QuickShop] Total           shops: 7
+[11:51:08] [Server thread/INFO]: [QuickShop] Valid           shops: 6
+[11:51:08] [Server thread/INFO]: [QuickShop] Pending              : 6
+[11:51:08] [Server thread/INFO]: [QuickShop] Waiting worlds loaded: 0
+[11:51:08] [Server thread/INFO]: [QuickShop] Waiting chunks loaded: 0
+[11:51:08] [Server thread/INFO]: [QuickShop] Done! Used 57ms to loaded shops in database.
+[11:51:08] [Server thread/INFO]: [QuickShop] Registering listeners...
+[11:51:08] [Server thread/INFO]: [QuickShop] Registering DisplayCheck task....
+[11:51:08] [Server thread/INFO]: [QuickShop] Cleaning MsgUtils...
+[11:51:08] [Server thread/INFO]: [QuickShop] Cleaning purchase messages from the database that are over a week old...
+[11:51:08] [Server thread/INFO]: [QuickShop] Log actions is enabled, actions will log in the qs.log file!
+[11:51:08] [Server thread/INFO]: [QuickShop] [Shop Purger] Purge not enabled!
+[11:51:08] [Server thread/INFO]: [QuickShop] QuickShop Loaded! 748 ms.
+[11:51:08] [Server thread/INFO]: [QuickShop] Using economy system: gMoney
+[11:51:08] [Server thread/WARN]: [QuickShop] QuickShop detected tax account not exists, we're trying to create one. If you see any errors, please change tax-account in config.yml to server owner in-game username
+[11:51:08] [Server thread/WARN]: [QuickShop] Cannot to create tax-account,  please change tax-account in config.yml to server owner in-game username
+[11:51:08] [Server thread/WARN]: [QuickShop] Tax account's player never played this server before and failed to create one, that may cause server lagg or economy system error, you should change that name. But if this warning not cause any issues, you can safety ignore this.
+[11:51:08] [Server thread/INFO]: [Orebfuscator] Enabling Orebfuscator v5.1.2
+[11:51:08] [Server thread/WARN]: [Orebfuscator] config path 'cache.baseDirectory' is no child directory of 'C:\Users\Win10\Desktop\server 1'
+[11:51:08] [Server thread/INFO]: [Orebfuscator] cache.protocolLibThreads is less than one, choosing processor count as value = 12
+[11:51:08] [Server thread/INFO]: [Orebfuscator] Searching NMS protocol for server version "v1_16_R3"!
+[11:51:09] [Server thread/INFO]: [Orebfuscator] NMS protocol for server version "v1_16_R3" found!
+[11:51:09] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:51:09] [Server thread/INFO]: Done (9.149s)! For help, type "help"
+[11:51:09] [Server thread/INFO]: [QuickShop] Registering bStats metrics...
+[11:51:09] [Server thread/INFO]: [QuickShop] Using economy system: gMoney
+[11:51:09] [Server thread/WARN]: [QuickShop] QuickShop detected tax account not exists, we're trying to create one. If you see any errors, please change tax-account in config.yml to server owner in-game username
+[11:51:09] [Server thread/WARN]: [QuickShop] Cannot to create tax-account,  please change tax-account in config.yml to server owner in-game username
+[11:51:09] [Server thread/WARN]: [QuickShop] Tax account's player never played this server before and failed to create one, that may cause server lagg or economy system error, you should change that name. But if this warning not cause any issues, you can safety ignore this.
+[11:51:09] [Craft Scheduler Thread - 15/INFO]: [Vault] Checking for Updates ... 
+[11:51:09] [Craft Scheduler Thread - 15/INFO]: [Vault] No new version available
+[11:51:13] [User Authenticator #1/INFO]: UUID of player CasperssXDE is c38d2672-0e81-32d8-86cf-0656aa056980
+[11:51:14] [Server thread/INFO]: CasperssXDE[/192.168.1.108:59142] logged in with entity id 320 at ([world]-119.59556895114925, 79.0, -58.87833400825859)
+[11:51:53] [User Authenticator #2/INFO]: UUID of player theavoid07 is 94ee8260-b45b-3365-9f79-07baf55d74bf
+[11:51:54] [Server thread/INFO]: theavoid07[/85.110.21.230:62262] logged in with entity id 387 at ([world]-148.5, 64.0, -2.5)
+[11:52:01] [Async Chat Thread - #0/INFO]: <CasperssXDE> sa[m
+[11:52:07] [Async Chat Thread - #0/INFO]: <theavoid07> as[m
+[11:52:16] [Async Chat Thread - #0/INFO]: <CasperssXDE> bankayý kýrmaya[m
+[11:52:18] [Async Chat Thread - #0/INFO]: <CasperssXDE> çalýþþana[m
+[11:52:22] [Async Chat Thread - #0/INFO]: <theavoid07> chestleri m[m
+[11:52:26] [Async Chat Thread - #0/INFO]: <CasperssXDE> herhangibi bir yerini[m
+[11:52:27] [Async Chat Thread - #0/INFO]: <CasperssXDE> tahtayý kýr[m
+[11:52:34] [Async Chat Thread - #0/INFO]: <CasperssXDE> olmuyo he iyi[m
+[11:52:37] [Async Chat Thread - #0/INFO]: <CasperssXDE> chestide krýmayý dene[m
+[11:52:48] [Async Chat Thread - #0/INFO]: <CasperssXDE> tamam good[m
+[11:52:50] [Async Chat Thread - #0/INFO]: <CasperssXDE> bi dk bide[m
+[11:52:58] [Async Chat Thread - #0/INFO]: <theavoid07> labn[m
+[11:53:03] [Async Chat Thread - #0/INFO]: <theavoid07> preview nasýl gidecek[m
+[11:53:09] [Async Chat Thread - #0/INFO]: <CasperssXDE> ne preview i[m
+[11:53:17] [Async Chat Thread - #0/INFO]: <theavoid07> sandýk[m
+[11:53:19] [Async Chat Thread - #0/INFO]: <CasperssXDE> bu chesti krýamyý dene bide[m
+[11:53:23] [Async Chat Thread - #0/INFO]: <CasperssXDE> amk sað týk yapýnca[m
+[11:53:29] [Async Chat Thread - #0/INFO]: <CasperssXDE> satabiliyon elindeki madeni[m
+[11:53:32] [Async Chat Thread - #0/INFO]: <CasperssXDE> prdn bir kere[m
+[11:53:35] [Async Chat Thread - #0/INFO]: <CasperssXDE> sol týk bas[m
+[11:53:42] [Async Chat Thread - #0/INFO]: <CasperssXDE> menü çýktý demi[m
+[11:53:45] [Async Chat Thread - #0/INFO]: <CasperssXDE> yazýlar gelmesi lazým sana[m
+[11:53:52] [Async Chat Thread - #0/INFO]: <CasperssXDE> orda soruyor iþte ne kadar satacaksýn[m
+[11:53:54] [Async Chat Thread - #0/INFO]: <CasperssXDE> dur mesela demir verim[m
+[11:53:58] [Async Chat Thread - #0/INFO]: <theavoid07> 10[m
+[11:54:04] [Async Chat Thread - #0/INFO]: [GriefPrevention] Muted repeat message.
+[11:54:10] [Async Chat Thread - #0/INFO]: <CasperssXDE> demirleri attým al bi[m
+[11:54:10] [Async Chat Thread - #0/INFO]: <theavoid07> -100[m
+[11:54:11] [Server thread/INFO]: theavoid07 has made the advancement [Acquire Hardware]
+[11:54:16] [Async Chat Thread - #0/INFO]: [GriefPrevention] Muted similar message.
+[11:54:20] [Async Chat Thread - #0/INFO]: <CasperssXDE> he oldu[m
+[11:54:27] [Async Chat Thread - #0/INFO]: <theavoid07> gelmedi pana dolar[m
+[11:54:28] [Async Chat Thread - #0/INFO]: <CasperssXDE> gmoney komutunu kullan paran gözükür[m
+[11:54:33] [Server thread/INFO]: CasperssXDE issued server command: /gmoney
+[11:54:37] [Server thread/INFO]: theavoid07 issued server command: /gmoney:gmoney
+[11:54:39] [Server thread/INFO]: CasperssXDE issued server command: /gmoney theavoid07
+[11:54:40] [Async Chat Thread - #0/INFO]: <theavoid07> gördüm[m
+[11:54:42] [Async Chat Thread - #0/INFO]: <CasperssXDE> gelmiþ iyi[m
+[11:54:52] [Async Chat Thread - #0/INFO]: <CasperssXDE> tamam herþey hazýr[m
+[11:54:53] [Async Chat Thread - #0/INFO]: <theavoid07> ama 155 dolar verdi burada 147 dolar gözüküo[m
+[11:55:00] [Async Chat Thread - #0/INFO]: <CasperssXDE> vergi man[m
+[11:55:03] [Async Chat Thread - #0/INFO]: <CasperssXDE> XD[m
+[11:55:08] [Server thread/INFO]: CasperssXDE issued server command: /weather clear
+[11:55:08] [Server thread/INFO]: [CasperssXDE: Set the weather to clear]
+[11:55:12] [Async Chat Thread - #0/INFO]: <theavoid07> bnce banka güzel olmamýþ[m
+[11:55:15] [Server thread/INFO]: CasperssXDE issued server command: /gmoney set theavoid07 30
+[11:55:30] [Server thread/INFO]: CasperssXDE issued server command: /gmoney set theavoid07 30
+[11:55:36] [Server thread/INFO]: CasperssXDE issued server command: /gmoney theavoid07
+[11:55:48] [Async Chat Thread - #0/INFO]: <CasperssXDE> boþver s et[m
+[11:55:57] [Async Chat Thread - #0/INFO]: <theavoid07> tamam ben yer beðenim awklfnwaklfn[m
+[11:56:02] [Async Chat Thread - #0/INFO]: <theavoid07> gamemode versene 2dk[m
+[11:56:03] [Async Chat Thread - #0/INFO]: <CasperssXDE> dq*kdpkop sw yi kapatýyom[m
+[11:56:07] [Async Chat Thread - #0/INFO]: <CasperssXDE> hadi bb[m
+[11:56:09] [Server thread/INFO]: CasperssXDE lost connection: Disconnected
+[11:56:09] [Server thread/INFO]: CasperssXDE left the game
+[11:56:10] [Async Chat Thread - #0/INFO]: <theavoid07> peszevenk[m
+[11:56:14] [Async Chat Thread - #0/INFO]: <theavoid07> ne zaman oynicaz[m
+[11:56:22] [Server thread/INFO]: Stopping server
+[11:56:22] [Server thread/INFO]: [Orebfuscator] Disabling Orebfuscator v5.1.2
+[11:56:22] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v4.6.0
+[11:56:22] [Server thread/INFO]: [QuickShop] Disabling QuickShop v5.1.0.9
+[11:56:22] [Server thread/INFO]: [QuickShop] QuickShop is finishing remaining work, this may need a while...
+[11:56:22] [Server thread/INFO]: [QuickShop] Please wait for the data to flush its data...
+[11:56:22] [Server thread/INFO]: [LockettePro] Disabling LockettePro v2.10.10
+[11:56:22] [Server thread/INFO]: [GriefPrevention] Disabling GriefPrevention v16.17.1-2b69191
+[11:56:22] [Server thread/INFO]: [GriefPrevention] GriefPrevention disabled.
+[11:56:22] [Server thread/INFO]: [gMoney] Disabling gMoney v1.9.4
+[11:56:22] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[11:56:22] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v6.1
+[11:56:22] [Server thread/INFO]: [0;36;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+[11:56:22] [Server thread/INFO]: [0;36;1m[21m[SimpleTpa] Simple Tpa has been disabled on version 6.1[m
+[11:56:22] [Server thread/INFO]: Saving players
+[11:56:22] [Server thread/INFO]: theavoid07 lost connection: Server closed
+[11:56:22] [Server thread/INFO]: theavoid07 left the game
+[11:56:22] [Server thread/INFO]: Saving worlds
+[11:56:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[11:56:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11:56:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[11:56:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:56:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[11:56:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:56:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11:56:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:56:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
