@@ -1,0 +1,73 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  MovingWorldCore (movingworld-1.12-6.353-full.jar)
+Contact their authors BEFORE contacting forge
+
+// There are four lights!
+
+Time: 06.08.2022 15:48
+Description: Exception in server tick loop
+
+java.lang.IllegalArgumentException: Block: class net.shadowmage.ancientwarfare.automation.block.BlockWarehouseStorage has property: size with invalidly named value: medıum
+	at net.minecraft.block.state.BlockStateContainer.func_185919_a(BlockStateContainer.java:117)
+	at net.minecraft.block.state.BlockStateContainer.<init>(BlockStateContainer.java:77)
+	at net.minecraft.block.state.BlockStateContainer.<init>(BlockStateContainer.java:62)
+	at net.shadowmage.ancientwarfare.automation.block.BlockWarehouseStorage.func_180661_e(BlockWarehouseStorage.java:43)
+	at net.minecraft.block.Block.<init>(Block.java:234)
+	at net.minecraft.block.Block.<init>(Block.java:243)
+	at net.shadowmage.ancientwarfare.core.block.BlockBase.<init>(BlockBase.java:14)
+	at net.shadowmage.ancientwarfare.automation.block.BlockBaseAutomation.<init>(BlockBaseAutomation.java:20)
+	at net.shadowmage.ancientwarfare.automation.block.BlockWarehouseStorage.<init>(BlockWarehouseStorage.java:37)
+	at net.shadowmage.ancientwarfare.automation.init.AWAutomationBlocks.register(AWAutomationBlocks.java:176)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_11_AWAutomationBlocks_register_Register.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus$1.invoke(EventBus.java:144)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
+	at net.minecraftforge.registries.GameData.fireRegistryEvents(GameData.java:845)
+	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:630)
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:99)
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:333)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:125)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486)
+	at java.lang.Thread.run(Unknown Source)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_202, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 7943877824 bytes (7575 MB) / 8232370176 bytes (7851 MB) up to 8232370176 bytes (7851 MB)
+	JVM Flags: 2 total; -Xms8192M -Xmx8192M
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2859 14 mods loaded, 14 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State | ID                                           | Version           | Source                                        | Signature                                |
+	|:----- |:-------------------------------------------- |:----------------- |:--------------------------------------------- |:---------------------------------------- |
+	| LCH   | minecraft                                    | 1.12.2            | minecraft.jar                                 | None                                     |
+	| LCH   | mcp                                          | 9.42              | minecraft.jar                                 | None                                     |
+	| LCH   | FML                                          | 8.0.99.99         | forge-1.12.2-14.23.5.2859.jar                 | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCH   | forge                                        | 14.23.5.2859      | forge-1.12.2-14.23.5.2859.jar                 | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCH   | com.elytradev.movingworld.common.asm.coremod |                   | minecraft.jar                                 | None                                     |
+	| LCH   | codechickenlib                               | 3.2.3.358         | CodeChickenLib-1.12.2-3.2.3.358-universal.jar | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+	| LCH   | ancientwarfare                               | 1.12.2-2.7.0.1038 | ancientwarfare-1.12.2-2.7.0.1038.jar          | None                                     |
+	| LCH   | ancientwarfareautomation                     | 1.12.2-2.7.0.1038 | ancientwarfare-1.12.2-2.7.0.1038.jar          | None                                     |
+	| LCH   | ancientwarfarenpc                            | 1.12.2-2.7.0.1038 | ancientwarfare-1.12.2-2.7.0.1038.jar          | None                                     |
+	| LCH   | ancientwarfarestructure                      | 1.12.2-2.7.0.1038 | ancientwarfare-1.12.2-2.7.0.1038.jar          | None                                     |
+	| LCH   | ancientwarfarevehicle                        | 1.12.2-2.7.0.1038 | ancientwarfare-1.12.2-2.7.0.1038.jar          | None                                     |
+	| LCH   | movingworld                                  | 1.12-6.353        | movingworld-1.12-6.353-full.jar               | None                                     |
+	| LCH   | davincisvessels                              | @DVESSELSVER@     | davincisvessels-1.12-6.340-full.jar           | None                                     |
+	| LCH   | jei                                          | 4.16.1.302        | jei_1.12.2-4.16.1.302.jar                     | None                                     |
+
+	Loaded coremods (and transformers): 
+MovingWorldCore (movingworld-1.12-6.353-full.jar)
+  
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)

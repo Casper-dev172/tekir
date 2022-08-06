@@ -1,0 +1,66 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  MovingWorldCore (movingworld-1.12-6.353-full.jar)
+Contact their authors BEFORE contacting forge
+
+// I bet Cylons wouldn't have this problem.
+
+Time: 8/6/22 3:57 PM
+Description: Exception in server tick loop
+
+Wrong Minecraft Versions!
+Mod: enderfixer
+Location: .\mods\EnderFixer-1.10.2-0.1.0.1.jar
+Expected: [1.10.2,1.10.2]
+Current: Minecraft 1.12.2
+
+net.minecraftforge.fml.common.WrongMinecraftVersionException: Wrong Minecraft version for enderfixer
+	at net.minecraftforge.fml.common.Loader.sortModList(Loader.java:252)
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:572)
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:98)
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:333)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:125)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486)
+	at java.lang.Thread.run(Unknown Source)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_202, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 7957973456 bytes (7589 MB) / 8232370176 bytes (7851 MB) up to 8232370176 bytes (7851 MB)
+	JVM Flags: 2 total; -Xms8192M -Xmx8192M
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2859 15 mods loaded, 15 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State | ID                                           | Version           | Source                                        | Signature                                |
+	|:----- |:-------------------------------------------- |:----------------- |:--------------------------------------------- |:---------------------------------------- |
+	| L     | minecraft                                    | 1.12.2            | minecraft.jar                                 | None                                     |
+	| L     | mcp                                          | 9.42              | minecraft.jar                                 | None                                     |
+	| L     | FML                                          | 8.0.99.99         | forge-1.12.2-14.23.5.2859.jar                 | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| L     | forge                                        | 14.23.5.2859      | forge-1.12.2-14.23.5.2859.jar                 | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| L     | com.elytradev.movingworld.common.asm.coremod |                   | minecraft.jar                                 | None                                     |
+	| L     | ancientwarfareautomation                     | 1.12.2-2.7.0.1038 | ancientwarfare-1.12.2-2.7.0.1038.jar          | None                                     |
+	| L     | ancientwarfare                               | 1.12.2-2.7.0.1038 | ancientwarfare-1.12.2-2.7.0.1038.jar          | None                                     |
+	| L     | ancientwarfarenpc                            | 1.12.2-2.7.0.1038 | ancientwarfare-1.12.2-2.7.0.1038.jar          | None                                     |
+	| L     | ancientwarfarestructure                      | 1.12.2-2.7.0.1038 | ancientwarfare-1.12.2-2.7.0.1038.jar          | None                                     |
+	| L     | ancientwarfarevehicle                        | 1.12.2-2.7.0.1038 | ancientwarfare-1.12.2-2.7.0.1038.jar          | None                                     |
+	| L     | codechickenlib                               | 3.2.3.358         | CodeChickenLib-1.12.2-3.2.3.358-universal.jar | None                                     |
+	| L     | davincisvessels                              | @DVESSELSVER@     | davincisvessels-1.12-6.340-full.jar           | None                                     |
+	| L     | enderfixer                                   | 1.10.2-0.1.0.1    | EnderFixer-1.10.2-0.1.0.1.jar                 | None                                     |
+	| L     | jei                                          | 4.16.1.302        | jei_1.12.2-4.16.1.302.jar                     | None                                     |
+	| L     | movingworld                                  | 1.12-6.353        | movingworld-1.12-6.353-full.jar               | None                                     |
+
+	Loaded coremods (and transformers): 
+MovingWorldCore (movingworld-1.12-6.353-full.jar)
+  
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)
